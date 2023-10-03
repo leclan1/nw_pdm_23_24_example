@@ -41,3 +41,4 @@ def exponentiate(base, power):
 
 pi = 3.142
 e = 2.718
+phi = 1.618
