@@ -45,3 +45,8 @@ print(math_tools.multiply(1
                           , math_tools.exponentiate(math_tools.e
                                                     , math_tools.multiply(3
                                                                           , .06))))
+
+# What is the value of the most important constant in quantum physics, hbar?
+print("What is the value of the most important constant in quantum physics," \
+      + " hbar?")
+print(math_tools.hbar)
