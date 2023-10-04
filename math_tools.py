@@ -42,7 +42,7 @@ def exponentiate(base, power):
 def factorial(a):
 	result = 1
 	for i in range(a):
-		result *= i+1
+		result *= i + 1
 	return result
 
 pi = 3.142
