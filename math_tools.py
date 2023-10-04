@@ -34,6 +34,9 @@ def multiply(a, b):
     """Returns the sum of a and b"""
     return(a * b)
 
+def sub(a,b):
+    """Retur the sub of a and b"""
+    return(a-b)
 
 def exponentiate(base, power):
     """Returns base raised to the power power"""
