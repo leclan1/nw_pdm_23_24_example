@@ -17,7 +17,7 @@ Functions:
     add(a, b) -> float
     multiply(a, b) -> float
     exponentiate(base, power) -> float
-
+    subtract(a, b) -> float
 Misc variables:
     
     pi: the ratio of a circle's circumference to its diameter
@@ -34,9 +34,9 @@ def multiply(a, b):
     """Returns the sum of a and b"""
     return(a * b)
 
-def sub(a,b):
-    """Retur the sub of a and b"""
-    return(a-b)
+def subtract(a, b):
+    """Returns the subtract of a and b"""
+    return(a - b)
 
 def exponentiate(base, power):
     """Returns base raised to the power power"""
