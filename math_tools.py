@@ -15,7 +15,9 @@ Classes:
 Functions:
     
     add(a, b) -> float
+    multiply(a, b) -> float
     exponentiate(base, power) -> float
+    integer_divide(a, b) -> int
 
 Misc variables:
     
@@ -39,6 +41,10 @@ def exponentiate(base, power):
     """Returns base raised to the power power"""
     return(base ** power)
 
+
+def integer_divide(a, b):
+    """Returns a / b, rounded down to the nearest integer"""
+    return(a // b)
 
 pi = 3.142
 e = 2.718

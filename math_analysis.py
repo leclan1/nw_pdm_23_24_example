@@ -46,7 +46,14 @@ print(math_tools.multiply(1
                                                     , math_tools.multiply(3
                                                                           , .06))))
 
+feature/hbar
 # What is the value of the most important constant in quantum physics, hbar?
 print("What is the value of the most important constant in quantum physics," \
       + " hbar?")
 print(math_tools.hbar)
+
+# How many full weeks are there in a year?
+print("How many full weeks are there in a year?")
+print(math_tools.integer_divide(365, 7))
+
+develop/v1
