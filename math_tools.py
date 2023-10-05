@@ -39,6 +39,12 @@ def exponentiate(base, power):
     """Returns base raised to the power power"""
     return(base ** power)
 
+def factorial(a):
+    """Returns a factorial"""
+    result = 1
+    for i in range(a):
+        result *= i + 1
+    return result
 
 pi = 3.142
 e = 2.718
