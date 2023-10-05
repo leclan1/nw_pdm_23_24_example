@@ -23,6 +23,7 @@ Misc variables:
     
     pi: the ratio of a circle's circumference to its diameter
     e: the base of the natural logarithm
+    hbar: Planck's constant divided by 2*pi
     
 """
 
@@ -47,3 +48,4 @@ def integer_divide(a, b):
 
 pi = 3.142
 e = 2.718
+hbar = 6.626e-34/(2*pi)
