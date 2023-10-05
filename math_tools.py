@@ -17,7 +17,7 @@ Functions:
     add(a, b) -> float
     multiply(a, b) -> float
     exponentiate(base, power) -> float
-
+    modulus(a, b) -> float
 Misc variables:
     
     pi: the ratio of a circle's circumference to its diameter
@@ -38,6 +38,11 @@ def multiply(a, b):
 def exponentiate(base, power):
     """Returns base raised to the power power"""
     return(base ** power)
+
+
+def modulus(a, b):
+    """Returns the remainder of a divided by b"""
+    return(a % b)
 
 
 pi = 3.142

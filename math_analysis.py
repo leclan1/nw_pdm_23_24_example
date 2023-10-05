@@ -45,3 +45,7 @@ print(math_tools.multiply(1
                           , math_tools.exponentiate(math_tools.e
                                                     , math_tools.multiply(3
                                                                           , .06))))
+
+# What is the remainder of 15 divided by 6
+print("What is the remainder of 15 divided by 6")
+print(math_tools.modulus(15, 6))
